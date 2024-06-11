@@ -10,9 +10,9 @@ namespace Sortering
     internal class App
     {
         
-        public void Run()
+        public void Run(int[] talliste)
         { 
-            int[] talliste = new int[] { 5, 3, 7, 2, 1, 9, 2 };
+            
 
             var sortert = talliste
                 .Where(n => n != 7)
